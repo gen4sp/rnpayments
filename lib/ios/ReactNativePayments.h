@@ -10,7 +10,6 @@
 
 #import "GatewayManager.h"
 #import "Card.h"
-#import "PKPaymentConverter.h"
 
 @interface ReactNativePayments : NSObject <RCTBridgeModule, PKPaymentAuthorizationViewControllerDelegate>
 
