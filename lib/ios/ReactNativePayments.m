@@ -1,5 +1,4 @@
 #import "ReactNativePayments.h"
-#import "PKPaymentConverter.m"
 #import <React/RCTUtils.h>
 #import <React/RCTEventDispatcher.h>
 
