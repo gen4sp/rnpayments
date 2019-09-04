@@ -65,7 +65,7 @@ RCT_EXPORT_METHOD(createCryptogram: (NSString *)cardNumber
     resolve(cryptogram);
 }
 
-RCT_EXPORT_METHOD(convertPaymentToString: (PKPayment *)payment
+RCT_EXPORT_METHOD(convertPaymentToString: (NSDictionary *)payment
                   resolve: (RCTPromiseResolveBlock)resolve
                   reject: (RCTPromiseRejectBlock)reject)
 {
