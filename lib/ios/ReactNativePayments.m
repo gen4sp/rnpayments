@@ -1,3 +1,4 @@
+#import <PassKit/PassKit.h>
 #import "ReactNativePayments.h"
 #import "PKPaymentConverter.h"
 #import <React/RCTUtils.h>
@@ -65,7 +66,7 @@ RCT_EXPORT_METHOD(createCryptogram: (NSString *)cardNumber
     resolve(cryptogram);
 }
 
-RCT_EXPORT_METHOD(convertPaymentToString: (NSDictionary *)payment
+RCT_EXPORT_METHOD(convertPaymentToString: (PKPayment *)payment
                   resolve: (RCTPromiseResolveBlock)resolve
                   reject: (RCTPromiseRejectBlock)reject)
 {
